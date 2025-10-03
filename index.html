@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Assesment-2</title>
+    <!-- Tailwind cdn Setup -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- Font-Awesome kit Setup -->
+    <script src="https://kit.fontawesome.com/9f59a2d7ab.js" crossorigin="anonymous"></script>
+
+    <!-- Text-Font Setup -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!-- Font Design -->
+    <style>
+        body {
+            font-family: "Roboto Condensed", sans-serif;
+        }
+    </style>
+</head>
+
+
+<body class="">
+
+    <!-- Nav Start -->
+    <nav class=" z-50 ">
+
+        <div class="flex justify-between items-center container mx-auto bg-black lg:px-12 lg:pb-5">
+
+            <!-- Left Nav  -->
+            <div class="flex flex-col items-center text-[#ae5a1d] pl-8 pt-3 pb-3">
+                <div class="flex gap-4">
+                    <img src="./images/logo_left.png" alt="">
+                    <h3 class="text-2xl ">Bodyshape</h3>
+                    <img src="./images/logo_right.png" alt="">
+                </div>
+                <span class="text-sm">Unleash your inner athlete</span>
+            </div>
+
+            <!-- Right Nav  -->
+            <div class="pl-5 pr-5 flex items-center gap-10">
+                <ul class="hidden lg:flex gap-10 text-sm ">
+                    <li><a href="#" class="text-white hover:border-b-3 border-[#ff6a00]">Home</a></li>
+                    <li><a href="#" class="text-white hover:border-b-3 border-[#ff6a00]">Services</a></li>
+                    <li><a href="#" class="text-white hover:border-b-3 border-[#ff6a00]">About</a></li>
+                    <li><a href="#" class="text-white hover:border-b-3 border-[#ff6a00]">Contact</a></li>
+                </ul>
+                <a href="" class="text-white text-sm lg:text-lg bg-gradient-to-r from-[#F66844] to-[#FF921B]  px-3 py-1">Join Us</a>
+            </div>
+
+        </div>
+    </nav>
+    <!-- Nav End -->
+
+    <!-- Baanner1 Start -->
+    <section class="relative bg-[url('./images/banner.png')] bg-cover bg-no-repeat bg-center min-h-80 lg:min-h-screen container mx-auto ">
+
+        <div class=" text-white p-3 lg:max-w-md flex flex-col items-center gap-10">
+            <div class="flex flex-col gap-5 lg:gap-8 px-5 lg:px-20 py-5 lg:py-10 text-center lg:text-start bg-gradient-to-b from-[#393939] to-[#393939]/0">
+                <div>
+                    <h1 class="text-3xl lg:text-6xl">Transform Your Body</h1>
+                </div>
+                <div>
+                    <p class="text-sm lg:text-md px-5 lg:px-0">We are dedicated to helping you transform your body and mind through the power of
+                        fitness</p>
+                </div>
+            </div>
+            <div class="flex gap-3 lg:gap-5">
+                <a href="" class=" text-sm lg:text-lg bg-gradient-to-r from-[#F66844] to-[#FF921B] text-center py-1 lg:py-2  px-3 lg:px-6">Get Started</a>
+                <div class="bg-gradient-to-r from-[#F66844] to-[#FF921B] p-[1px] flex">
+                    <a href="" class="text-sm lg:text-lg bg-black px-2 lg:px-4 py-1 lg:py-1.5"><i
+                        class="fa-regular fa-circle-play text-[#F66844]"></i>&nbsp;Watch Review</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="absolute left-5 lg:left-10 bottom-0 translate-y-1/2 text-white w-[35%] lg:w-[20%] flex gap-2 lg:gap-4 bg-gradient-to-r from-[#F66844] to-[#FF921B] px-3 lg:px-5 py-1 lg:py-2 text-md lg:text-xl [clip-path:polygon(0_0,100%_0,80%_100%,0_100%)] ">
+            <a href="" class="hover:text-blue-800"> <i class="fa-brands fa-google"></i></a>
+            <a href="" class="hover:text-blue-800"> <i class="fa-brands fa-facebook-f"></i></a>
+            <a href="" class="hover:text-blue-800"> <i class="fa-brands fa-youtube"></i></a>
+        </div>
+
+    </section>
+    <!-- Baanner1 End -->
+
+    <!-- Baanner2 Start -->
+    <section class=" bg-[url('./images/roated_banner.png')] bg-cover bg-no-repeat bg-center min-h-80 lg:min-h-screen bg-black/60 bg-blend-overlay container mx-auto">
+
+        <!-- Fitness Plan Start -->
+        <h1 class="text-white text-2xl lg:text-4xl font-bold pl-8 lg:pl-20 pt-15 lg:pt-20"> Fitness Plans & <span class=" text-[#FF921B]">Nutritions</span></h1>
+
+        <div class="text-white grid md:grid-cols-2 lg:grid-cols-3 px-15 lg:px-30 py-10 md:divide-x lg:divide-x divide-y">
+
+            <div class="flex flex-col items-center gap-2 px-10 lg:px-5 py-8 border-[#FF921B]">
+                <img src="./images/workout.png" alt="" class="scale-80 lg:scale-100">
+                <h3 class="text-lg">Weight Loss</h3>
+                <p class="text-xs  text-center mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+                    perspiciatis ratione odit. Necessitatibus blanditiis ex cum voluptas recusandae repellat harum vitae
+                    rerum, obcaecati provident maxime officia cumque qui, natus quam.</p>
+            </div>
+
+            <div class="flex flex-col items-center gap-2 px-10 lg:px-5 py-8 border-[#FF921B] md:border-r-0 lg:border-r-1">
+                <img src="./images/yoga.png" alt="" class="scale-80 lg:scale-100">
+                <h3 class="text-lg">Classic Yoga</h3>
+                <p class="text-xs text-center mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+                    perspiciatis ratione odit. Necessitatibus blanditiis ex cum voluptas recusandae repellat harum vitae
+                    rerum, obcaecati provident maxime officia cumque qui, natus quam.</p>
+            </div>
+
+            <div class="flex flex-col items-center gap-2 px-10 lg:px-5 py-8 border-[#FF921B] lg:border-r-0">
+                <img src="./images/bicycle.png" alt="" class="scale-80 lg:scale-100">
+                <h3 class="text-lg">Cycling</h3>
+                <p class="text-xs text-center mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+                    perspiciatis ratione odit. Necessitatibus blanditiis ex cum voluptas recusandae repellat harum vitae
+                    rerum, obcaecati provident maxime officia cumque qui, natus quam.</p>
+            </div>
+
+            <div class="flex flex-col items-center gap-2 px-10 lg:px-5 py-8 border-[#FF921B] md:border-r-0 lg:border-r-1 lg:border-b-0">
+                <img src="./images/biceps.png" alt="" class="scale-70 lg:scale-100">
+                <h3 class="text-lg">Body Building</h3>
+                <p class="text-xs text-center mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+                    perspiciatis ratione odit. Necessitatibus blanditiis ex cum voluptas recusandae repellat harum vitae
+                    rerum, obcaecati provident maxime officia cumque qui, natus quam.</p>
+            </div>
+
+            <div class="flex flex-col items-center gap-2 px-10 lg:px-5 py-8 border-[#FF921B] md:border-b-0 lg:border-b-0">
+                <img src="./images/fitness.png" alt="" class="scale-70 lg:scale-100">
+                <h3 class="text-lg">Masculation</h3>
+                <p class="text-xs text-center mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+                    perspiciatis ratione odit. Necessitatibus blanditiis ex cum voluptas recusandae repellat harum vitae
+                    rerum, obcaecati provident maxime officia cumque qui, natus quam.</p>
+            </div>
+
+            <div class="flex flex-col items-center gap-2 px-10 lg:px-5 py-8">
+                <img src="./images/running.png" alt="" class="scale-80 lg:scale-100">
+                <h3 class="text-lg">Fitness Running </h3>
+                <p class="text-xs text-center mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+                    perspiciatis ratione odit. Necessitatibus blanditiis ex cum voluptas recusandae repellat harum vitae
+                    rerum, obcaecati provident maxime officia cumque qui, natus quam.</p>
+            </div>
+        </div>
+        <!-- Fitness Plan End -->
+
+        <div>
+            <h1 class="text-white text-2xl lg:text-4xl font-bold pl-8 lg:pl-20 pb-5 lg:pt-20"> Subscribe to <span class=" text-[#FF921B]">Plans</span></h1>
+        </div>
+    </section>
+    <!-- Baanner2 End -->
+
+    <!-- Baanner3 Start -->
+    <section class="bg-black bg-cover bg-no-repeat bg-center pb-5 lg:pb-20 container mx-auto">
+
+        <!-- Subscribe Plan Start -->
+        <div class="text-white grid md:grid-cols-2 lg:grid-cols-3  gap-5 lg:gap-20 px-30 lg:px-30 pb-20">
+            <div class="flex flex-col items-center gap-2 lg:gap-4 px-8 py-8  bg-gradient-to-b from-[#393939] to-[#393939]/0 transition-transform duration-200 hover:-translate-y-5">
+                <h1 class="text-2xl font-bold">Fit</h1>
+                <p class="text-sm">Plan Exp. 16/11/2025</p>
+                <h1 class="pt-8"> <i class="fa-solid fa-indian-rupee-sign text-lg"></i><span class="text-xl">1200
+                        /</span> <span class="text-sm">Month</span></h1>
+                <p class="text-sm pb-8">Streaming</p>
+                <a href="" class="border border-[#FF921B] px-4 py-1 text-center">Select Plan</a>
+            </div>
+
+            <div class="flex flex-col items-center gap-2 lg:gap-4 px-8 py-8  bg-gradient-to-b from-[#393939] to-[#393939]/0 transition-transform duration-200 hover:-translate-y-5">
+                <h1 class="text-2xl font-bold">Fit</h1>
+                <p class="text-sm">Plan Exp. 16/11/2025</p>
+                <h1 class="pt-8"> <i class="fa-solid fa-indian-rupee-sign text-lg"></i><span class="text-xl">1200
+                        /</span> <span class="text-sm">Month</span></h1>
+                <p class="text-sm pb-8">Streaming</p>
+                <a href="" class="border border-[#FF921B] px-4 py-1 text-center">Select Plan</a>
+            </div>
+
+            <div class="flex flex-col items-center gap-2 lg:gap-4 py-8 bg-gradient-to-b from-[#393939] to-[#393939]/0 transition-transform duration-200 hover:-translate-y-5">
+                <h1 class="text-2xl font-bold">Fit</h1>
+                <p class="text-sm">Plan Exp. 16/11/2025</p>
+                <h1 class="pt-8"> <i class="fa-solid fa-indian-rupee-sign text-lg"></i><span class="text-xl">1200
+                        /</span> <span class="text-sm">Month</span></h1>
+                <p class="text-sm pb-8">Streaming</p>
+                <a href="" class="border border-[#FF921B] px-4 py-1 text-center">Select Plan</a>
+            </div>
+        </div>
+        <!-- Subscribe Plan End -->
+
+        <!-- Trainer Sec Start  -->
+        <div>
+            <h1 class="text-white text-2xl lg:text-4xl font-bold pl-8 lg:pl-20 pb-5 lg:pt-20"> Join Out <span class=" text-[#FF921B]">Trainer</span>
+            </h1>
+        </div>
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 px-20 md:px-30 lg:px-45 py-10 lg:py-20 gap-10">
+            <div><img src="./images/trainer_01.png" alt=""></div>
+            <div><img src="./images/trainer_02.png" alt=""></div>
+            <div><img src="./images/trainer_03.png" alt=""></div>
+        </div>
+        <!-- Trainer Sec End  -->
+
+        <!-- why join us start -->
+        <div class="container mx-auto">
+            <h1 class="text-white text-2xl lg:text-4xl font-bold pl-8 lg:pl-20 pb-5 pt-10 lg:pt-20"> Why Join <span class=" text-[#FF921B]">Us?</span>
+            </h1> 
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 lg:gap-10 px-10  md:pr-70 lg:pr-40">
+                <!-- Left side start -->
+                <div class="text-white py-10 ">
+                    <ul class="bg-gradient-to-b from-[#111010] to-[#000000] pl-10 md:pl-15 lg:pl-25 pt-10 pb-20 text-sm md:text-md lg:text-lg list-disc marker:text-[#FF921B]">
+                        <li class="pb-3">Best Gym</li>
+                        <li class="pb-3">Experts Coach</li>
+                        <li class="pb-3">Good Workout Facilities</li>
+                        <li class="pb-3">Consultation With Experts</li>
+                    </ul>
+                    <a href="" class="bg-gradient-to-r from-[#F66844] to-[#FF921B] py-1 lg:py-2 px-3 lg:px-5 text-sm md:text-lg lg:text-lg">See More Benifits</a>
+                </div>
+                <!-- Left side End -->
+
+                <!-- Right side start -->
+                <div class=" flex  lg:flex-col md:flex-row gap-5 md:gap-10 lg:gap-10 md:items-center lg:items-end px-auto md:px-40 lg:px-10">
+                    <img src="./images/join_us_01.png" alt="" class="lg:mr-20 flex-srink-0 w-1/2 h-auto md:min-w-40 object-cover">
+                    <img src="./images/join_us_02.png" alt="" class=" flex-srink-0 w-1/2 h-auto md:min-w-40 object-cover">
+                </div>
+                <!-- Right side End -->
+            </div>
+
+        </div>
+        <!-- why join us Ends -->
+
+    </section>
+    <!-- Banner3 End -->
+
+    <!-- Footer Start  -->
+     <footer class=" bg-[#101010] bg-cover bg-no-repeat bg-center container mx-auto text-white ">
+
+        <!-- fotter grid start -->
+        <div class="grid grid-cols-3 md:grid-cols-3 lg:grid-cols-7 px-5 lg:px-10 gap-5 lg:gap-10 py-10 ">
+
+            <div class="flex flex-col gap-2 items-center col-span-3 md:col-span-3 lg:col-span-2">
+                <div class="flex flex-col items-center gap-2 text-[#ae5a1d] pt-3 pb-3">
+                    <div class="flex gap-1">
+                        <img src="./images/logo_left.png" alt="" class="scale-75">
+                        <h3 class="text-md md:text-lg lg:text-xl ">Bodyshape</h3>
+                        <img src="./images/logo_right.png" alt="" class="scale-75">
+                    </div>
+                    <span class="text-[10px] text-center">Unleash your inner athlete</span>
+                </div>
+                <h3 class="text-xs px-5 text-center"> Support Your Need To Much Fitness Goal</h3>
+            </div>
+
+            <div class="px-3 py-3 flex flex-col items-center gap-3">
+                <p class="text-md">Company</p>
+                <ul class="text-xs text-white/50">
+                    <li>About</li>
+                    <li>Careers</li>
+                    <li>Blogs</li>
+                </ul>
+            </div>
+
+            <div class="px-3 py-3 flex flex-col items-center gap-3">
+                <p class="text-md">Contact</p>
+                <ul class="text-xs text-white/50 ">
+                    <li>Help\FAQ</li>
+                    <li>Press</li>
+                </ul>
+            </div>
+
+            <div class="px-3 py-3 flex flex-col items-center gap-3 ">
+                <p class="text-md ">More</p>
+                <ul class="text-xs text-white/50 ">
+                    <li>Program</li>
+                    <li>Plan</li>
+                    <li>Methode</li>
+                </ul>
+            </div>
+
+            <div class="flex flex-col items-center lg:items-start py-5 px-20 lg:px-5 col-span-3 md:col-span-3 lg:col-span-2 ">
+                <p class="text-md pb-5">Popular Tags</p>
+                <div class="flex flex-wrap gap-0.5 pl-3">
+                    <span class=" bg-[#FFFFFF]/50 py-1 px-2 text-xs hover:bg-[#FF921B]">Abbs</span>
+                    <span class=" bg-[#FFFFFF]/50 py-1 px-2 text-xs hover:bg-[#FF921B]">Workout</span>
+                    <span class=" bg-[#FFFFFF]/50 py-1 px-2 text-xs hover:bg-[#FF921B]">Nutrition</span>
+                    <span class=" bg-[#FFFFFF]/50 py-1 px-2 text-xs hover:bg-[#FF921B]">Boxing</span>
+                    <span class=" bg-[#FFFFFF]/50 py-1 px-2 text-xs hover:bg-[#FF921B]">Gym</span>
+                    <span class=" bg-[#FFFFFF]/50 py-1 px-2 text-xs hover:bg-[#FF921B]">Facilities</span>
+                    <span class=" bg-[#FFFFFF]/50 py-1 px-2 text-xs hover:bg-[#FF921B]">Plans</span>
+                    <span class=" bg-[#FFFFFF]/50 py-1 px-2 text-xs hover:bg-[#FF921B]">Trainers</span>
+                </div>
+            </div>
+
+        </div>
+        <!-- fotter grid start -->
+
+     </footer>
+    <!-- Footer End -->
+
+    <!-- copyright section start-->
+     <section class="bg-[#FF921B] bg-cover bg-center container mx-auto text-center text-white"> 
+        <p class="py-1 lg:py-2 text-xs lg:text-sm"> &copy; 2025 All Rights Reserved</p>
+     </section>
+    <!-- copyright section end -->
+
+</body>
+
+
+</html>
