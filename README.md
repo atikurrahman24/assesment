@@ -1,4 +1,4 @@
-Description About “ASSESSMENT-2” 
+Description About “BodyShape” 
 
    This project is a responsive and visually appealing gymnasium website built using HTML, Tailwind CSS, Font Awesome, Google Fonts and modern web development tools. It is designed to showcase gym services, fitness plans, trainers, and facilities in a structured and user-friendly way. The website highlights both aesthetic design and functional layout with responsive features, ensuring a smooth experience across devices. 
 
